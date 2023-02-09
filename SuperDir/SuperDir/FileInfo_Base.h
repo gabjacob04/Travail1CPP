@@ -1,6 +1,6 @@
 #include "IFileInfo.h";
 
-class FileInfor_Base {
+class FileInfo_Base {
 	char mFolder[512];
 	char MFile[256];
 

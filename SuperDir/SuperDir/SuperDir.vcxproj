@@ -127,10 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileInfo_CPP.h" />
+    <ClCompile Include="FileInfo_EXE.h" />
     <ClCompile Include="Fonctions.cpp" />
     <ClCompile Include="SuperDir.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileInfor_Other.h" />
+    <ClInclude Include="FileInfo_Base.h" />
+    <ClInclude Include="FileInfo_Binary.h" />
+    <ClInclude Include="FileInfo_H.h" />
+    <ClInclude Include="FileInfo_Text.h" />
     <ClInclude Include="IFileInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
